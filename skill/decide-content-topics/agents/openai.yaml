@@ -1,0 +1,4 @@
+interface:
+  display_name: "自媒体选题决策"
+  short_description: "把分散信息筛成候选选题，并在人工确认后生成选题立项卡"
+  default_prompt: "Use $decide-content-topics to screen these signals, compare candidate topics, and wait for my decision before creating a topic brief."
