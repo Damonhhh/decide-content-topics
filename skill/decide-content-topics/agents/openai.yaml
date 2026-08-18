@@ -1,4 +1,4 @@
 interface:
-  display_name: "自媒体选题决策"
-  short_description: "把分散信息筛成候选选题，并在人工确认后生成选题立项卡"
-  default_prompt: "Use $decide-content-topics to screen these signals, compare candidate topics, and wait for my decision before creating a topic brief."
+  display_name: "自媒体选题雷达与决策"
+  short_description: "补齐账号定位，检查近期重复，用自定义雷达筛信号并完成人工选题"
+  default_prompt: "Use $decide-content-topics to check whether my account profile, recent-content baseline, and source radar are complete. Generate only the currently missing questionnaire or blank template, then stop. Do not run an unconfirmed radar. After screening, create candidates only when I explicitly say '进入候选阶段', '生成候选选题', or request 09-候选选题比较.md. Wait for my explicit selection before creating a topic brief."
